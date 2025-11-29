@@ -16,20 +16,15 @@
 
 ### 复现说明
 - 环境要求：
-- 项目结构：
+  Python版本 Python 3.10.18
+- 主要依赖包：
+pandas: 2.0.3
+
+numpy: 1.26.4
+matplotlib: 3.10.6
+seaborn: 0.12.2
+scikit-learn: 1.7.1
+statsmodels: 0.14.5
 
 
-  retirement_analysis/
-├── data/
-|   └── data_cl1/
-|   └── data_project/
-│   └── data_project/
-│       └── final_data.xlsx
-├── fig/
-│   ├── 延迟退休意愿分布_柱状图.png
-│   ├── 延迟退休意愿分布_饼图.png
-│   ├── 相关性分析.png
-│   └── 随机森林特征重要性.png
-├── data_clean.ipynb
-├── model_analysis.ipynb
-└── README.md
+ 
